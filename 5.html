@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .carousel-container {
+            width: 90%;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: white;
+        }
+        .carousel {
+            display: inline-flex;
+            gap: 20px;
+        }
+        .carousel img {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="https://www.europanet.com.br/posteres-filmes-series/img/capas/107168.jpg?text=Poster+1" alt="Poster 1">
+            <img src="https://uauposters.com.br/media/catalog/product/cache/1/thumbnail/800x930/9df78eab33525d08d6e5fb8d27136e95/4/6/468220230615-uau-posters-pearl-filmes-3.jpg?text=Poster+1" alt="Poster 2">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81c2c457691753.5a059d944bf23.jpg?text=Poster+1" alt="Poster 3">
+            <img src="https://uauposters.com.br/media/catalog/product/cache/1/thumbnail/800x930/9df78eab33525d08d6e5fb8d27136e95/3/2/327320211103-uau-posters-dune-duna-filmes.jpg?text=Poster+1" alt="Poster 4">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/15cd8757691753.59df93794aa5a.jpg?text=Poster+1" alt="Poster 5">
+        </div>
+    </div>
+</body>
+</html>
